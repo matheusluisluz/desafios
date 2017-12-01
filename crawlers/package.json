@@ -1,0 +1,22 @@
+{
+  "name": "crawlers",
+  "version": "1.0.0",
+  "description": "Parte do trabalho na IDwall inclui desenvolver *crawlers/scrapers* para coletar dados de websites.\r Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NTBA_FIX_319=test&& nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "node-telegram-bot-api": "^0.29.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

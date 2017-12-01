@@ -1,0 +1,15 @@
+{
+  "name": "strings",
+  "version": "1.0.0",
+  "description": "Após ler o coding style do kernel Linux, você descobre a mágica que é \r ter linhas de código com no máximo 80 caracteres cada uma.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Luis",
+  "license": "ISC",
+  "dependencies": {
+    "justified": "^1.0.1",
+    "word-wrap": "^1.2.3"
+  }
+}
