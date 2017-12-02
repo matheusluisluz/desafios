@@ -2,9 +2,10 @@
   "name": "strings",
   "version": "1.0.0",
   "description": "Após ler o coding style do kernel Linux, você descobre a mágica que é \r ter linhas de código com no máximo 80 caracteres cada uma.",
-  "main": "index.js",
+  "main": "outputParte12.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node parte12/outputParte12.js"
   },
   "author": "Matheus Luis",
   "license": "ISC",

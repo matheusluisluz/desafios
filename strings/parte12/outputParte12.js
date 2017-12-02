@@ -3,12 +3,12 @@ const justify = require("justified");
 const fs = require("fs");
 
 var texto = "./texto.txt";
-//testes
+
 desafioString(texto, 40);
 
 function desafioString(texto, tamanho) {
 
-    fs.readFile("./texto.txt", (err, buffer) => {
+    fs.readFile("../strings/parte12/texto.txt", (err, buffer) => {
         console.log("Arquivo Lido");
 
         if (err) {
@@ -17,7 +17,7 @@ function desafioString(texto, tamanho) {
         }
         var parte1 = wrap(buffer.toString(), { width: tamanho, indent: "" });
 
-        fs.writeFile("textoParte1.txt", parte1, (err) => {
+        fs.writeFile("./parte12/textoParte1.txt", parte1, (err) => {
             if (err) {
                 console.log(err);
                 return;
@@ -28,7 +28,7 @@ function desafioString(texto, tamanho) {
 
         var parte2 = justify(buffer.toString(), { width: tamanho });
 
-        fs.writeFile("textoParte2.txt", parte2, (err) => {
+        fs.writeFile("./parte12/textoParte2.txt", parte2, (err) => {
             if (err) {
                 console.log(err);
                 return;

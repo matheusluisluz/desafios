@@ -34,3 +34,7 @@ O exemplo de output está [neste arquivo](https://github.com/idwall/desafios/blo
 - Uso do Docker.
 - Parametrização da quantidade de caracteres por linha.
 - Utilizar as versões mais atuais da linguagem que escolher para desenvolver (JavaScript ES6+; Java 8; Python 3, etc).
+
+
+### DESAFIO STRING
+- "npm start" cria os arquivos da parte1 e parte2 do desafio.
